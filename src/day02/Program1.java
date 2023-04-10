@@ -31,6 +31,17 @@ public class Program1 {
 		double a6=45678.1234567d;
 		System.out.println(a6);
 		
+		char a7='a';
+		System.out.println(a7);
+		
+		String a8="234567812sdrt!@#%";
+		System.out.println(a8);
+		
+	    }
+	
+}
+				
+		
 				
 		
 		
