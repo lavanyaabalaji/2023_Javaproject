@@ -2,9 +2,15 @@ package day04;
 
 public class Program3 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void addFunction(int a,int b)
+	{
+		System.out.println(a+b);
+	}
+	
+	public static void subFunction(int a,int b)
+	
+	{
+		System.out.println(a-b);
 	}
 
 }

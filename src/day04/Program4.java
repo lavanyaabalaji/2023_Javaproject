@@ -1,9 +1,10 @@
 package day04;
 
-public class Program4 {
+public class Program4 extends Program3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		addFunction(10,20);
+		subFunction(20,30);
 
 	}
 
