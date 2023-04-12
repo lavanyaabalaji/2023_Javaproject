@@ -10,10 +10,10 @@ public class Program2 extends Program1
 		x.mul(20,30);
 		
 		}
-	public void mul(int a,intb)
+	public void mul(int a,int b)
 	
 	{
-		System.out.println();
+		System.out.println(a*b);
 	}
 
 }
