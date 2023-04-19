@@ -22,6 +22,11 @@ public class TataCarSpec {
 			System.out.println("....");
 			
 		}
+		public static void displayModelNumber()
+		{
+			System.out.println("....");
+		}
+		
 		
 		
 		
