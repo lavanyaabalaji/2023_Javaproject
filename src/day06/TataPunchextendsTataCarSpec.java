@@ -1,40 +1,41 @@
 package day06;
 
-public class TataPunchextendsTataCarSpec {
+public class TataPunchextendsTataCarSpec extends TataCarSpec{
 
 	public static void main(String[] args) {
-		TataCarSpec tatapunch=new TataPunch();
+		TataCarSpec tatapunch=new TataPunchextendsTataCarSpec();
 		tatapunch.displayHeight();//child class override method
 		tatapunch.displayModelNumber();//parent class method its static
 
 	}
 	public static void displayModelNumber()
 	{
-		System.out.println("TataPunch ModelNumber is 123456");
+		System.out.println("Tata Punch ModelNumber is 123456");
 		
 	}
+	
 	@Override
 	public void displayHeight()
 	{
-		System.out.println("TataPunch Height is 4.5f");
+		System.out.println("Tata Punch Height is 4.5f");
 	}
-	@Override
 	
+	@Override
 	public void displayWidth()
 	{
-		System.out.println("TataPunch Width is 6.5f");
+		System.out.println("Tata Punch Width is 6.5f");
 	}
-	@Override
 	
+	@Override
 	public void displaySpeed()
 	{
-		System.out.println("TataPunch Speed is 110km/hr");
+		System.out.println("Tata Punch Speed is 110km/hr");
 	}
-	@Override
 	
+	@Override
 	public void displayPrice()
 	{
-		System.out.println("TataPinch Price is 9.5L");
+		System.out.println("Tata Punch Price is 9.5L");
 	}
 
 	}
